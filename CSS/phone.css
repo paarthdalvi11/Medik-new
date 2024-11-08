@@ -1,0 +1,36 @@
+/******************/
+/* HEADER STARTS */
+/******************/
+
+header{
+    flex-direction: column;
+}
+header .ph-email{
+    justify-content: center;
+}
+header .ph-email .phone{
+    padding-right: 20px;
+}
+header .ph-email .email{
+    padding-left: 20px;
+}
+header .social-handles{
+    display: none;
+}
+
+/****************/
+/* HEADER ENDS */
+/***************/
+
+/*****************/
+/* FOOTER STARTS */
+/*****************/
+
+footer .links{
+    padding: 30px 20px;
+    border-bottom: 0.5px solid rgb(58, 58, 58);
+}
+
+/****************/
+/* FOOTER ENDS */
+/***************/

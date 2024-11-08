@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medik | Where You Have Your Doctor On A Click.</title>
+
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/utility.css">
+    <link rel="stylesheet" href="./CSS/laptops.css" media="only screen and (max-width: 1024px)">
+    <link rel="stylesheet" href="./CSS/tablets.css" media="only screen and (max-width: 768px)">
+    <link rel="stylesheet" href="./CSS/phone.css" media="only screen and (max-width: 480px)">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+
+    <!-- Javascript -->
+    <script src="./Javascript/script.js"></script>
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./Resources/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./Resources/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./Resources/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./Resources/favicon/site.webmanifest">
+
+</head>
+<body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="icon-arrow-up"></i></button>
+    <!------------------->
+    <!-- HEADER STARTS -->
+    <!------------------->
+    <header class="flex space-between blue font white">
+        <div class="ph-email flex">
+            <div class="phone flex align-center">
+                <i class="fa fa-phone"></i>
+                <p>(00) 000 111 222</p>
+            </div>
+            <div class="email flex align-center">
+                <i class="fa fa-envelope"></i>
+                <p>info@somedomain.com</p>
+            </div>
+        </div>
+        <div class="social-handles">
+            <a href="#" class="white"><i class="fa fa-twitter"></i></a>
+            <a href="#" class="white"><i class="fa fa-facebook-square"></i></a>
+            <a href="#" class="white"><i class="fa fa-google-plus"></i></a>
+            <a href="#" class="white"><i class="fa fa-instagram"></i></a>
+        </div>
+    </header>
+    <!-- HEADER ENDS -->
+
+    <!-- NAVBAR STARTS -->
+    <nav id="default-nav" class="flex space-between align-center">
+        <a href="#"><img src="./Resources/nav_logo.png" alt="Medik"></a>
+        <ul class="flex font align-center">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Collection</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+        <div class="icon-page flex align-center">
+            <i class="fa fa-heart"></i>
+            <i class="fa fa-user"></i>
+            <i class="fa fa-shopping-cart"></i>
+        </div>
+    </nav>
+
+    <nav id="responsive-nav" class="none space-between align-center">
+        <a href="#"><img src="./Resources/nav_logo.png" alt="Medik"></a>
+        <div class="menu-toggle" onclick="openCloseAnimation(); sideNavTrigger();">
+            <div id="bar1"></div>
+            <div id="bar2"></div>
+            <div id="bar3"></div>
+        </div>
+    </nav>
+
+    <div id="sideNav" class="none">
+        <div class="flex-container">
+            <div class="nav-box mg-r"><a href="#"><i class="fa fa-heart"></i></a></div>
+            <div class="nav-box mg-r"><a href="#"><i class="fa fa-user"></i></a></div>
+            <div class="nav-box mg-r"><a href="#"><i class="fa fa-shopping-cart"></i></a></div>
+            <div class="nav-box font"><p onclick="openCloseAnimation(); closeSideNav();">CLOSE</p></div>
+        </div>
+        <div class="page-links">
+            <div class="page-cards mg-b"><a href="./index.html">Home</a></div>
+            <div class="page-cards mg-b"><a href="#">About</a></div>
+            <div class="page-cards mg-b"><a href="#">Blog</a></div>
+            <div class="page-cards mg-b"><a href="#">Collection</a></div>
+            <div class="page-cards mg-b"><a href="#">Shop</a></div>
+            <div class="page-cards mg-b"><a href="#" style="color: #086cec;">Contact Us</a></div>
+        </div>
+    </div>
+    <!-- NAVBAR ENDS -->
+
+    <!-- PAGE NAME STARTS -->
+    <section id="pagename" class="flex column justify-center align-center font white">
+        <h1>Contact Us</h1>
+        <p>Home &nbsp;/&nbsp; Contact Us</p>
+    </section>
+    <!-- PAGE NAME ENDS -->
+
+    <!-- LOCATION STARTS -->
+    <section id="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.57390676871!2d144.89048861886974!3d-37.82344826469349!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad66740cbd372fd%3A0x9c0b27cc3382db7b!2sUrban%20Paws%20Doggy%20Daycare%20Yarraville!5e0!3m2!1sen!2sin!4v1660144310812!5m2!1sen!2sin" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    <!-- LOCATION ENDS -->
+    
+    <!-- CONTACT STARTS -->
+    <section id="contact" class="flex justify-center">
+        <div class="contact-section-container font flex column align-center">
+            <h1>Contact Info</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta voluptatibus eius ratione nostrum obcaecati reiciendis.</p>
+            <div class="contact-card-container flex wrap justify-center align-center">
+                <a href="#">
+                    <div class="contact-card flex column justify-center align-center">
+                        <div class="contact-icon white blue flex align-center">
+                            <i class="fa fa-phone"></i>
+                        </div>
+                        <h4>TALK TO US</h4>
+                        <p>Toll Free: 0803-080-308</p>
+                        <p>0803-080-308</p>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="contact-card flex column justify-center align-center">
+                        <div class="contact-icon white blue flex align-center">
+                            <i class="fa fa-envelope"></i>
+                        </div>
+                        <h4>CONTACT US</h4>
+                        <p>domain@example.com</p>
+                        <p>xyz@example.com</p>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="contact-card flex column justify-center align-center">
+                        <div class="contact-icon white blue flex align-center">
+                            <i class="fa fa-map-marker" style="margin: 0px 3px;"></i>
+                        </div>
+                        <h4>OUR LOCATION</h4>
+                        <p>11 @ John Doe Road,</p>
+                        <p>Ventureland, USA</p>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="contact-card flex column justify-center align-center">
+                        <div class="contact-icon white blue flex align-center">
+                            <i class="fa fa-clock-o"></i>
+                        </div>
+                        <h4>OPENING HOURS</h4>
+                        <p>Mon - Sat: 9am to 8pm</p>
+                        <p>Sun: 10am to 3pm</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="contact-section-container font flex column align-center">
+            <h1>Enquire Now</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta voluptatibus eius ratione nostrum obcaecati reiciendis.</p>
+            <form action="#" method="post">
+                <input type="text" name="fullname" id="fullname" placeholder="Name">
+                <input type="email" name="email" id="email" placeholder="Email">
+                <input type="text" name="subject" id="subject" placeholder="Subject">
+                <textarea name="message" id="message" rows="10" placeholder="Message" style="padding-top: 12px; resize: vertical;"></textarea>
+                <button type="submit" class="blue white">Send Enquiry</button>
+            </form>
+        </div>
+    </section>
+    <!-- CONTACT ENDS -->
+
+    <!-- FOOTER STARTS -->
+    <footer class="flex column font white">
+        <div class="links flex justify-space-between">
+            <div class="medik flex column">
+                <a href="#"><img src="./Resources/footer_logo.png" alt="Medik"></a>
+                <div class="about-container flex column">
+                    <div class="about flex align-center">
+                        <i class="fa fa-home"></i>
+                        <p>No: 58 A, East Madison Street, Baltimore, MD, USA 4508.</p>
+                    </div>
+                    <div class="about flex align-center">
+                        <i class="fa fa-phone"></i>
+                        <p>+91 12345678</p>
+                    </div>
+                    <div class="about flex align-center">
+                        <i class="fa fa-envelope"></i>
+                        <p>support@example.com</p>
+                    </div>
+                </div>
+                <div class="footer-button-container flex">
+                    <button class="blue flex align-center justify-center">
+                        <a href="#"><i class="fa fa-twitter white"></i></a>
+                    </button>
+                    <button class="blue flex align-center justify-center">
+                        <a href="#"><i class="fa fa-facebook-square white"></i></a>
+                    </button>
+                    <button class="blue flex align-center justify-center">
+                        <a href="#"><i class="fa fa-google-plus white"></i></a>
+                    </button>
+                    <button class="blue flex align-center justify-center">
+                        <a href="#"><i class="fa fa-instagram white"></i></a>
+                    </button>
+                    <button class="blue flex align-center justify-center">
+                        <a href="#"><i class="fa fa-linkedin white"></i></a>
+                    </button>
+                </div>
+            </div>
+    
+            <div class="quick-links flex space-between">
+                <div class="help">
+                    <h3>Help</h3>
+                    <ul>
+                        <li><a href="#">Scissors</li></a>
+                        <li><a href="#">Glucometer</li></a>
+                        <li><a href="#">Disposable Gloves</li></a>
+                        <li><a href="#">Cleaning Scissors</li></a>
+                        <li><a href="#">Smart Mask</li></a>
+                    </ul>
+                </div>
+                <div class="support">
+                    <h3>Support</h3>
+                    <ul>
+                        <li><a href="#">Plaster Machine</li></a>
+                        <li><a href="#">Pedometer</li></a>
+                        <li><a href="#">Cleaning Scissors</li></a>
+                        <li><a href="#">Smart Mask</li></a>
+                        <li><a href="#">Pedometer</li></a>
+                    </ul>
+                </div>
+                <div class="info">
+                    <h3>Information</h3>
+                    <ul>
+                        <li><a href="#">Scissors</li></a>
+                        <li><a href="#">Glucometer</li></a>
+                        <li><a href="#">Disposable Gloves</li></a>
+                        <li><a href="#">Cleaning Scissors</li></a>
+                        <li><a href="#">Smart Mask</li></a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="credits font white">
+            <p>Copyright &copy; Powered By Designthemes.</p>
+        </div>
+    </footer>
+    <!-- FOOTER ENDS -->
+</body>
+</html>

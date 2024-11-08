@@ -1,0 +1,301 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+#myBtn{
+    display: none;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 99;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background-color: #086cec;
+    color: white;
+    cursor: pointer;
+    padding: 1rem 1.1rem;
+    border-radius: 50%;
+}
+#myBtn:hover{
+    background-color: black;
+    color: white;
+    transition: 1s all;
+}
+/******************/
+/* HEADER STARTS */
+/******************/
+
+header{
+    padding: 10px 80px;
+}
+header .ph-email .phone{
+    padding-right: 30px;
+    border-right: 0.5px solid white;
+}
+header .ph-email .email{
+    padding-left: 30px;
+}
+header .ph-email .phone i, header .ph-email .email i{
+    margin-right: 15px;
+    font-size: 15px;
+}
+header .ph-email .phone p, header .ph-email .email p{
+    font-size: 13px;
+}
+header .social-handles i{
+    padding: 0px 15px;
+}
+
+/****************/
+/* HEADER ENDS */
+/***************/
+
+/*****************/
+/* NAVBAR STARTS */
+/****************/
+
+#default-nav{
+    padding: 15px 75px;
+    overflow: hidden;
+    background-color: white;
+    position: sticky;
+    top: 0;
+}
+#default-nav img{
+    width: 130px;
+}
+#default-nav ul{
+    list-style-type: none;
+}
+#default-nav ul li a{
+    text-decoration: none;
+    color: grey;
+    font-weight: bold;
+    margin: 0px 25px;
+}
+#default-nav .icon-page i{
+    margin-right: 20px;
+    font-size: 20px;
+}
+#default-nav ul li a:hover, #default-nav .icon-page i:hover{
+    color: #086cec;
+    cursor: pointer;
+    transition: 0.7s all;
+}
+
+/***************/
+/* NAVBAR ENDS */
+/***************/
+
+/********************/
+/* PAGE NAME STARTS */
+/********************/
+
+#pagename{
+    background: url(../Resources/pagename_bg.jpg) fixed center center/cover;
+    height: 200px;
+}
+#pagename h1{
+    font-size: 33px;
+    margin-bottom: 20px;
+}
+#pagename p{
+    font-size: 14px;
+}
+
+/******************/
+/* PAGE NAME ENDS */
+/************ *****/
+
+/*******************/
+/* LOCATION STARTS */
+/*******************/
+
+#location iframe{
+    width: 100%;
+    height: 485px;
+}
+
+/*****************/
+/* LOCATION ENDS */
+/*****************/
+
+/******************/
+/* CONTACT STARTS */
+/*****************/
+
+#contact{
+    padding: 70px 0px;
+}
+#contact .contact-section-container{
+    background-color: #fbfbfb;
+    width: 488px;
+    padding: 20px 10px;
+    margin: 0px 30px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+#contact .contact-section-container h1{
+    font-size: 30px;
+    color: black;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+#contact .contact-section-container p{
+    color: rgb(131, 131, 131);
+    font-size: 13px;
+    text-align: center;
+    line-height: 22px;
+}
+#contact .contact-section-container a{
+    text-decoration: none;
+}
+#contact .contact-section-container .contact-card-container{
+    margin-top: 40px;
+}
+#contact .contact-section-container .contact-card-container .contact-card{
+    border: 0.5px solid rgb(216, 216, 216);
+    border-radius: 15px;
+    padding: 20px;
+    margin: 15px;
+    width: 182.39px;
+}
+#contact .contact-section-container .contact-card-container .contact-card:hover{
+    border: 0.5px solid #086cec;
+    transition: 1s all;
+}
+#contact .contact-section-container .contact-card-container .contact-card .contact-icon{
+    padding: 15px;
+    border-radius: 30px;
+}
+#contact .contact-section-container .contact-card-container .contact-card .contact-icon i{
+    font-size: 20px;
+}
+#contact .contact-section-container .contact-card-container .contact-card h4{
+    margin-top: 15px;
+    margin-bottom: 7px;
+    word-spacing: 3px;
+    color: rgb(34, 34, 34);
+}
+
+#contact .contact-section-container form{
+    margin-top: 35px;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0px 40px;
+}
+#contact .contact-section-container form input, #contact .contact-section-container form textarea{
+    display: block;
+    border: 0.5px solid rgb(212, 212, 212);
+    border-radius: 5px;
+    outline: none;
+    width: 100%;
+    padding-left: 12px;
+    margin: 20px 0px;
+    background-color: transparent;
+    caret-color: rgb(212, 212, 212);
+    color: #7e7e7e;
+}
+#contact .contact-section-container form input{
+    height: 40px;
+}
+#contact .contact-section-container form button{
+    width: 100%;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 13px 0px;
+    border-radius: 5px;
+}
+#contact .contact-section-container form button:hover{
+    background-color: #0058ca;
+    cursor: pointer;
+}
+/*****************/
+/* CONTACT ENDS */
+/****************/
+
+/*****************/
+/* FOOTER STARTS */
+/*****************/
+
+footer{
+    background-color: black;
+}
+footer .links{
+    padding: 80px;
+    border-bottom: 0.5px solid rgb(58, 58, 58);
+}
+footer .credits{
+    text-align: center;
+    color: rgb(201, 201, 201);
+    margin: 20px;
+}
+footer .medik{
+    width: 25%;
+}
+footer .quick-links{
+    margin-left: 70px;
+    width: 60%;
+}
+footer .medik img{
+    width: 160px;
+}
+footer .medik .about-container{
+    margin: 20px 0px;
+}
+footer .medik .about-container .about{
+    margin: 5px 0px;
+}
+footer .medik .about-container .about i{
+    font-size: 20px;
+    margin-right: 15px;
+}
+footer .medik .about-container .about i:hover{
+    color: #acacac;
+}
+footer .medik .about-container .about p{
+    font-size: 15px;
+    line-height: 25px;
+}
+footer .medik .footer-button-container{
+    width: 100%;
+}
+footer .medik .footer-button-container button{
+    width: 46px;
+    height: 46px;
+    font-size: 17px;
+    margin-right: 10px;
+    border: none;
+    outline: none;
+}
+footer .medik .footer-button-container button:hover{
+    background-color: #0058ca;
+}
+footer .help ul, footer .support ul, footer .info ul{
+    list-style-type: none;
+    padding: none;
+}
+footer .help ul li, footer .support ul li, footer .info ul li{
+    margin-bottom: 15px;
+}
+footer .help ul li a, footer .support ul li a, footer .info ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+footer .help ul li a:hover, footer .support ul li a:hover, footer .info ul li a:hover{
+    color: #acacac;
+}
+footer .help h3, footer .support h3, footer .info h3{
+    margin-bottom: 55px;
+}
+/****************/
+/* FOOTER ENDS */
+/***************/
